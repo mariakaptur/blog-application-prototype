@@ -1,0 +1,19 @@
+<li [ngClass]="{'list-group-item' : true,
+                'list-group-item-success': loveIt > hateIt,
+                'list-group-item-danger' : hateIt > loveIt}">
+
+  <div class="d-flex row justify-content-between">
+    <h4 class="px-3" [ngStyle]="{color: getColor()}">{{ postTitle }}</h4>
+    <p class="font-italic text-muted">Créé le {{ dateCreation | date : 'short' }}</p>
+  </div>
+  <p class="px-1" [ngStyle]="{color: getColor()}">{{ postDescription }}</p>
+
+
+  <button class="btn btn-success mr-2 my-2"
+          (click)='loveIt = loveIt + 1'>
+    Love it! {{ loveIt }}</button>
+
+  <button class="btn btn-danger  mr-2 my-2"
+          (click)='hateIt = hateIt + 1'>
+    Don't love it! {{ hateIt }}</button>
+</li>
