@@ -1,8 +1,10 @@
-#ATTENTION !# To open this project you have to use my github with theses command lines :
-$ git clone https://github.com/mariakaptur/blog-application-prototype
-$ cd AppBlog
-$ npm install
-$ ng serve --open
+# Attention
+
+## To open this project you have to use my github with theses command lines :
+- $ git clone https://github.com/mariakaptur/blog-application-prototype
+- $ cd AppBlog
+- $ npm install
+- $ ng serve --open
 
 ## AppBlog
 
