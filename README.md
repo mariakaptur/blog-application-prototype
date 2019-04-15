@@ -1,6 +1,6 @@
 # Attention
 
-## To open this project you have to use my github with theses command lines :
+## To open this project, open your CLI or Terminal and add these command lines :
 - $ git clone https://github.com/mariakaptur/blog-application-prototype
 - $ cd AppBlog
 - $ npm install
